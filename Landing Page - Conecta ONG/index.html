@@ -4,43 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conecta ONG</title>
-    <link
-      rel="shortcut icon"
-      href="img/logo-conecta.svg"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="img/logo-conecta.svg" type="image/x-icon" />
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Dancing+Script:wght@400..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!-- Cabeçalho -->
     <header>
-      <nav>
-        <img src="img/logo-conecta.svg" alt="Conecta ONG" />
-        <a href="#sobrenos">Sobre nós</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#contato">Contato</a>
-        <a href="#desenvolvedoras">Desenvolvedoras</a>
-      </nav>
+        <div class="container-logo">
+          <img src="img/logo-conecta.svg" alt="Conecta ONG" />
+        </div>
+        <nav class="nav-container">
+          <ul>
+            <li><a href="#sobrenos">Sobre nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#desenvolvedoras">Desenvolvedoras</a></li>
+          </ul>
+        </nav>
     </header>
-
     <main class="container">
+      <!-- Sessão sobre nós -->
       <section class="sobrenos" id="sobrenos">
-        <img src="img/ilustração.svg" alt="Ilustração" />
-        <h1>Conecta ONG</h1>
-        <p>
-          A Conecta ONG é uma empresa especializada em desenvolver soluções
-          tecnológicas para ONGs sem fins lucrativos. Nosso sistema é projetado
-          para simplificar a gestão de recursos, v luntários e campanhas,
-          permitindo que as organizações se concentrem em suas causas. Com foco
-          na eficiência e transparência, oferecemos uma plataforma intuitiva que
-          facilita a captação de doações, o engajamento de voluntários e a
-          análise de impacto social. Nossa missão é apoiar o trabalho das ONGs,
-          potencializando seus resultados e contribuindo para um impacto
-          positivo na sociedade.
-        </p>
+        <div class="ilustracao-one">
+          <img src="img/ilustração.svg" alt="Ilustração" />
+        </div>
+        <div class="name-logo">
+          <h1>Conecta ONG</h1>
+        </div>
+        <div class="paragrafo">
+          <p>
+            A Conecta ONG é uma empresa especializada em desenvolver soluções
+            tecnológicas para ONGs sem fins lucrativos. Nosso sistema é projetado
+            para simplificar a gestão de recursos, v luntários e campanhas,
+            permitindo que as organizações se concentrem em suas causas. Com foco
+            na eficiência e transparência, oferecemos uma plataforma intuitiva que
+            facilita a captação de doações, o engajamento de voluntários e a
+            análise de impacto social. Nossa missão é apoiar o trabalho das ONGs,
+            potencializando seus resultados e contribuindo para um impacto
+            positivo na sociedade.
+          </p>
+        </div>
       </section>
 
+      <!-- Sessão Serviços -->
       <section class="container-cards servicos" id="servicos">
-        <h2>Serviços Disponibilizados</h2>
+        <h1>Serviços Disponibilizados</h1>
 
         <div class="gestao-financeira">
           <h3>Gestão Financeira</h3>
@@ -99,8 +117,9 @@
         </div>
       </section>
 
+      <!-- Sessão Contato -->
       <section class="container-form" id="contato">
-        <h2>Contato</h2>
+        <h1>Contato</h1>
         <form action="#" method="post">
           <label for="nome">Nome:</label><br />
           <input type="text" id="nome" name="nome" required /><br /><br />
@@ -118,8 +137,9 @@
         </form>
       </section>
 
+      <!-- Sessão Desenvolvedoras -->
       <section class="container-cards desenvolvedoras" id="desenvolvedoras">
-        <h2>Desenvolvedoras</h2>
+        <h1>Desenvolvedoras</h1>
 
         <div class="desenvolvedora-um">
           <h3>Amanda Sousa</h3>
@@ -165,6 +185,7 @@
       </section>
     </main>
 
+    <!-- Rodapé -->
     <footer>
       <p>&copy; 2024 Conecta ONG. Todos os direitos reservados.</p>
     </footer>

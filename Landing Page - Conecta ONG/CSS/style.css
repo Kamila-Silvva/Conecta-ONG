@@ -1,3 +1,77 @@
+/* Geral */
 * {
-    color: black;
+    background-color: #F6F4F6;
+    color: #8D493A;
+    padding: 0;
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    box-sizing: border-box;
 }
+
+
+main h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 45px;
+}
+
+main h3 {
+    font-weight: bold;
+}
+
+/* Cabeçalho */
+
+header {
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container-logo img {
+    width: 100%;
+    width: 125px;
+    margin-top: 15px;
+}
+
+.nav-container {
+    margin: 0 10px;
+}
+
+.nav-container li {
+    display: inline-block;
+    margin: 0 9px;
+}
+
+.nav-container a {
+    text-decoration: none;
+}
+
+/* Sessão sobre nós */
+.sobrenos img {
+    max-width: 100%;
+    width: 350px;
+    height: 300px;
+    margin: 0 70px;
+    padding: 0 10px;
+    display: flex;
+    display: inline-block;
+} 
+
+.name-logo h1{
+    text-align: center;
+    display: flex;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+
+
+
+
